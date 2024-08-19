@@ -13,6 +13,8 @@ import TestimonialsCarousel from "@/components/testimonials-carousel";
 import Cta from "@/components/cta";
 import ImageSlideShow from "@/app/components/image-slide-show";
 
+import HomePageContent from "@/app/components/home-page-content"
+
 export default function Home() {
   return (
     <>
@@ -25,6 +27,7 @@ export default function Home() {
       <Cta /> */}
       {/* <HomeHeader /> */}
       <ImageSlideShow />
+      <HomePageContent />
     </>
   );
 }
