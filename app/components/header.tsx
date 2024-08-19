@@ -71,7 +71,7 @@ export default function Header() {
                   href="/about"
                   className="flex items-center text-gray-700 transition hover:text-gray-900"
                 >
-                  About
+                  Our Mission
                 </Link>
               </li>
               <li className="px-3 py-1">

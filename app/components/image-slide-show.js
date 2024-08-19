@@ -42,7 +42,7 @@ export default function ImageSlideShow() {
             width: '100%',
             height: '100%',
             opacity: index === currentImageIndex ? 1 : 0,
-            transition: 'opacity 1s ease-in-out',
+            transition: 'opacity 3s ease-in-out',
             zIndex: index === currentImageIndex ? 1 : 0,
           }}
         >
@@ -61,23 +61,26 @@ export default function ImageSlideShow() {
         <h1 style={{
 
           position: 'absolute',
-          top: '40%',
+          top: '20%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
           zIndex: 2,
           textAlign: 'center',
+          fontSize: '48px',
+          color: 'wheat'
 
-        }}>Your Verbiage Here</h1>
-        <p style={{
-
+        }}>It's Not just a Club... It's Not Just a Meal...</h1>
+        <h1 style={{
           position: 'absolute',
-          top: '50%',
+          top: '30%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
           zIndex: 2,
           textAlign: 'center',
+          fontSize: '70px',
+          color: 'wheat'
 
-        }}>Additional text can go here.</p>
+        }}>It's More Than Just a Lunch.</h1>
         
       </div>
     </div>
