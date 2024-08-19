@@ -8,23 +8,4 @@
 
 @import "tailwindcss/utilities";
 
-/* styles/global.css */
-
-/* Set all backgrounds to white */
-*,
-*::before,
-*::after {
-  background-color: white !important;
-}
-
-/* Set all text to black */
-body,
-* {
-  color: black !important;
-}
-
-h1 , p{
-  margin-top: 100px;
-  text-align: center;
-}
 
