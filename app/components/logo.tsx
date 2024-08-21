@@ -21,10 +21,10 @@ export default function Logo() {
         />
       </svg> */}
       <Image 
-        style={{background: 'red', fill:'black' }}
+        style={{background: 'black', fill:'black' }}
         src={logo}
         alt='logo'
-        width={250}
+        width={120}
         height={250}
         priority
       />
