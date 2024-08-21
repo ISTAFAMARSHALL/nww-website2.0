@@ -190,7 +190,7 @@ export default function VideoGallery() {
   ];
 
   return (
-    <section style={{ maxWidth: '65%', margin: '50px auto' }}>
+    <section style={{ maxWidth: '60%', margin: '50px auto' }}>
       <h2 style={{ textAlign: 'center', fontSize: '28px', color: '#333', marginBottom: '20px' }}>
         Videos
       </h2>
@@ -209,7 +209,7 @@ export default function VideoGallery() {
             className="hover:transform hover:scale-105" 
             style={{ 
               display: 'block', 
-              flex: '1 1 calc(30% - 60px)', 
+              flex: '1 1 calc(30% - 33px)', 
               position: 'relative', 
               borderRadius: '12px',
               overflow: 'hidden',

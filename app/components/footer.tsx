@@ -3,7 +3,7 @@ import Logo from "./logo";
 
 export default function Footer({ border = false }: { border?: boolean }) {
   return (
-    <footer>
+    <footer className="footer">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* Top area: Blocks */}
         <div
@@ -75,7 +75,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                   className="text-gray-600 transition hover:text-gray-900"
                   href="#0"
                 >
-                  About us
+                  Our Mission
                 </Link>
               </li>
               {/* <li>

@@ -35,6 +35,7 @@ export default function ContentComponent() {
         maxWidth: '80%',
         margin: '0 auto',
         gap: '3rem',
+        fontFamily: 'Arial, sans-serif'
       }}
     >
       <h2

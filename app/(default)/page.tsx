@@ -23,7 +23,7 @@ import TestimonialsCarousel from "@/app/components/testimonials-carousel";
 
 export default function Home() {
   return (
-    <>
+    <div className="main">
       {/* <Hero />
       <BusinessCategories />
       <LargeTestimonial />
@@ -39,6 +39,6 @@ export default function Home() {
       <Features />
       <TestimonialsCarousel />
       
-    </>
+    </div>
   );
 }

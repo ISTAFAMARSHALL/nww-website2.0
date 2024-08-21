@@ -3,7 +3,7 @@
 // import Image from 'next/image';
 // import { useState } from 'react';
 // import Thumbnail01 from '@/app/images/people-images/2024-08-07 Lunch (1).jpeg';
-// import Thumbnail02 from '@/app/images/people-images/2024-08-07 Lunch (10).jpeg';
+// import Thumbnail02 from '@/app/images/people-images';
 
 // export default function PhotoGallery() {
 //   const items = [
@@ -169,22 +169,33 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import Thumbnail01 from '@/app/images/people-images/2024-08-07 Lunch (1).jpeg';
-import Thumbnail02 from '@/app/images/people-images/2024-08-07 Lunch (10).jpeg';
+import Thumbnail02 from '@/app/images/people-images//2024-08-07 Lunch (10).jpeg';
+import Thumbnail03 from '@/app/images/lunch-images/WhatsApp Image 2024-05-22 at 3.18.19 PM.jpeg';
+import Thumbnail04 from '@/app/images/people-images/2024-08-07 Lunch (19).jpeg';
+import Thumbnail05 from '@/app/images/people-images/2024-08-07 Lunch (5).jpeg';
+import Thumbnail06 from '@/app/images/people-images/7 16 2024 - HIPPA Compliant Lunch (1).jpeg';
+import Thumbnail07 from '@/app/images/people-images/7 16 2024 - HIPPA Compliant Lunch (9).jpeg';
+import Thumbnail08 from '@/app/images/people-images/7 3 2024 - Good Karma NWW Lunch (14).jpeg';
+import Thumbnail09 from '@/app/images/lunch-images/2024-06-26 (3).jpeg';
+import Thumbnail10 from '@/app/images/people-images/7 3 2024 - Good Karma NWW Lunch (22).jpeg';
+import Thumbnail11 from '@/app/images/lunch-images/WhatsApp Image 2024-05-22 at 3.18.19 PM.jpeg';
+import Thumbnail12 from '@/app/images/lunch-images/2024-05-29 (1).jpeg'
+
 
 export default function PhotoGallery() {
   const items = [
     { title: 'Image 1', link: '#0', image: Thumbnail01 },
     { title: 'Image 2', link: '#0', image: Thumbnail02 },
-    { title: 'Image 3', link: '#0', image: Thumbnail01 },
-    { title: 'Image 4', link: '#0', image: Thumbnail02 },
-    { title: 'Image 5', link: '#0', image: Thumbnail01 },
-    { title: 'Image 6', link: '#0', image: Thumbnail02 },
-    { title: 'Image 7', link: '#0', image: Thumbnail01 },
-    { title: 'Image 8', link: '#0', image: Thumbnail02 },
-    { title: 'Image 9', link: '#0', image: Thumbnail01 },
-    { title: 'Image 10', link: '#0', image: Thumbnail02 },
-    { title: 'Image 11', link: '#0', image: Thumbnail01 },
-    { title: 'Image 12', link: '#0', image: Thumbnail02 },
+    { title: 'Image 3', link: '#0', image: Thumbnail03 },
+    { title: 'Image 4', link: '#0', image: Thumbnail04 },
+    { title: 'Image 5', link: '#0', image: Thumbnail05 },
+    { title: 'Image 6', link: '#0', image: Thumbnail06 },
+    { title: 'Image 7', link: '#0', image: Thumbnail07 },
+    { title: 'Image 8', link: '#0', image: Thumbnail08 },
+    { title: 'Image 9', link: '#0', image: Thumbnail09 },
+    { title: 'Image 10', link: '#0', image: Thumbnail10 },
+    { title: 'Image 11', link: '#0', image: Thumbnail11 },
+    { title: 'Image 12', link: '#0', image: Thumbnail12 },
   ];
 
   const [currentPage, setCurrentPage] = useState(0);
@@ -207,7 +218,7 @@ export default function PhotoGallery() {
   const selectedItems = items.slice(startIndex, startIndex + itemsPerPage);
 
   return (
-    <section style={{ maxWidth: '60%', margin: '50px auto' }}>
+    <section style={{ maxWidth: '60%', margin: '50px auto' , fontFamily: 'Arial, sans-serif' }}>
       <h2 style={{ textAlign: 'center', fontSize: '28px', color: '#333', marginBottom: '20px' }}>
         Photos
       </h2>

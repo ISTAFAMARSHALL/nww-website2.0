@@ -31,7 +31,7 @@ export default function ImageSlideShow() {
   }, []);
 
   return (
-    <div style={{ position: 'relative', width: '100%', height: '100vh', overflow: 'hidden' }}>
+    <div style={{ position: 'relative', width: '100%', height: '100vh', overflow: 'hidden' , fontFamily: 'Arial, sans-serif'  }}>
       {images.map((img, index) => (
         <div
           key={index}
@@ -42,7 +42,7 @@ export default function ImageSlideShow() {
             width: '100%',
             height: '100%',
             opacity: index === currentImageIndex ? 1 : 0,
-            transition: 'opacity 3s ease-in-out',
+            transition: 'opacity 1s ease-in-out',
             zIndex: index === currentImageIndex ? 1 : 0,
           }}
         >
@@ -61,28 +61,56 @@ export default function ImageSlideShow() {
         <h1 style={{
 
           position: 'absolute',
-          top: '20%',
+          top: '45%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
           zIndex: 2,
           textAlign: 'center',
-          fontSize: '48px',
-          color: 'wheat'
+          fontSize: '45px',
+          color: 'wheat',
 
-        }}>It's Not just a Club... It's Not Just a Meal...</h1>
+        }}>It's Not just a Club. It's Not Just a Meal. It's...</h1>
         <h1 style={{
           position: 'absolute',
-          top: '30%',
+          top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
           zIndex: 2,
           textAlign: 'center',
-          fontSize: 'px',
+          fontSize: '55px',
           color: 'wheat'
 
-        }}>It's More Than Just a Lunch.</h1>
+        }}>More Than Just a Lunch.</h1>
         
       </div>
+      {/* <button
+        style={{
+          position: 'absolute',
+          top: '38%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          zIndex: 2,
+          textAlign: 'center',
+          fontSize: '45px',
+          color: 'wheat',
+        }}>Learn More</button> */}
+        <a
+          className="btn w-full text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
+          href="#0"
+          style={{
+            backgroundColor: 'wheat',
+            position: 'absolute',
+            top: '60%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            zIndex: 2,
+            // textAlign: 'center',
+            fontSize: '20px',
+            // color: 'wheat',
+          }}
+          >
+            Learn More
+          </a>
     </div>
   );
 }

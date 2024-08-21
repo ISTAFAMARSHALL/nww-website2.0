@@ -153,7 +153,7 @@ export default function FAQPage() {
   };
 
   return (
-    <section style={{  maxWidth: '80%', margin: '50px auto', padding: '20px', fontFamily: 'Arial, sans-serif', color: '#333' }}>
+    <section style={{  maxWidth: '50%', margin: '50px auto', padding: '20px', fontFamily: 'Arial, sans-serif', color: '#333' }}>
       <h1 style={{ marginTop: '50px' , textAlign: 'center', fontSize: '36px', marginBottom: '40px', color: '#222' }}>Frequently Asked Questions</h1>
       <div style={{ borderTop: '1px solid #ccc' }}>
         {faqs.map((faq, index) => (
@@ -178,7 +178,7 @@ export default function FAQPage() {
               </span>
             </div>
             {activeIndex === index && (
-              <div style={{ padding: '15px 0', fontSize: '18px', lineHeight: '1.6', color: '#555' }}>
+              <div style={{ padding: '15px 0', fontSize: '25px', lineHeight: '1.6', color: '#555' }}>
                 <p>{faq.answer}</p>
               </div>
             )}
