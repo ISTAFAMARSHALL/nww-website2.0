@@ -77,7 +77,7 @@ export default function ImageSlideShow() {
           transform: 'translate(-50%, -50%)',
           zIndex: 2,
           textAlign: 'center',
-          fontSize: '70px',
+          fontSize: 'px',
           color: 'wheat'
 
         }}>It's More Than Just a Lunch.</h1>

@@ -207,7 +207,7 @@ export default function PhotoGallery() {
   const selectedItems = items.slice(startIndex, startIndex + itemsPerPage);
 
   return (
-    <section style={{ maxWidth: '40%', margin: '50px auto' }}>
+    <section style={{ maxWidth: '60%', margin: '50px auto' }}>
       <h2 style={{ textAlign: 'center', fontSize: '28px', color: '#333', marginBottom: '20px' }}>
         Photos
       </h2>

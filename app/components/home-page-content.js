@@ -9,19 +9,19 @@ import HomePageIMG4 from '@/app/images/lunch-images/2024-08-07 Lunch (14).jpeg';
 const contentData = [
   {
     image: HomePageIMG,
-    text: 'This is the first piece of content with an image on the left and text on the right.',
+    text: 'Place verbiage regarding this image Here.',
   },
   {
     image: HomePageIMG2,
-    text: 'This is the second piece of content with an image on the right and text on the left.',
+    text: 'Place verbiage regarding this image Here.',
   },
   {
     image: HomePageIMG3,
-    text: 'This is the third piece of content with an image on the left and text on the right.',
+    text: 'Place verbiage regarding this image Here.',
   },
   {
     image: HomePageIMG4,
-    text: 'This is the fourth piece of content with an image on the right and text on the left.',
+    text: 'Place verbiage regarding this image Here.',
   },
 ];
 
@@ -37,7 +37,9 @@ export default function ContentComponent() {
         gap: '3rem',
       }}
     >
-      <h1>Some Verbiage Here</h1>
+      <h2
+        style={{ fontSize: '30px'}}
+      >Some Verbiage Here</h2>
       {contentData.map((item, index) => (
         <div
           key={index}

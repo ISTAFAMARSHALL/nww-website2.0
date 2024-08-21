@@ -67,7 +67,7 @@
 //               </span>
 //             </div>
 //             {activeIndex === index && (
-//               <div style={{ padding: '15px 0', fontSize: '18px', lineHeight: '1.6', color: '#555' }}>
+//               <div style={{ padding: '15px 0', fontSize: '18px', lineHeight: '1.6',  color: '#555' }}>
 //                 <p>{faq.answer}</p>
 //               </div>
 //             )}
