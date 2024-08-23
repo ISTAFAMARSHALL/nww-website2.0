@@ -249,7 +249,7 @@
 'use client';
 
 
-export default function VideoGallery({videos}) {
+export default function VideoGallery({videos}: VideoGalleryProps) {
 
   return (
     <section style={{ maxWidth: '60%', margin: '50px auto' }}>
