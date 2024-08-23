@@ -261,6 +261,7 @@ interface VideoGalleryProps {
 
 export default function VideoGallery({videos}: VideoGalleryProps) {
 
+
   return (
     <section style={{ maxWidth: '60%', margin: '50px auto' }}>
       <h2 style={{ textAlign: 'center', fontSize: '28px', color: '#333', marginBottom: '20px' }}>
@@ -274,7 +275,12 @@ export default function VideoGallery({videos}: VideoGalleryProps) {
           gap: '30px',
         }}
       >
-        {videos.map((video, index) => (
+        {videos.map((video, index) => {
+          
+          // console.log(video.videoSrc)
+          
+          return (
+          
           <div
             key={index}
             className="hover:transform hover:scale-105"
@@ -287,8 +293,9 @@ export default function VideoGallery({videos}: VideoGalleryProps) {
               boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)',
               transition: 'transform 0.3s ease',
             }}
+            
           >
-            <video
+            {/* <video
               src={video.videoSrc}
               controls
               style={{ 
@@ -297,7 +304,7 @@ export default function VideoGallery({videos}: VideoGalleryProps) {
                 height: '100%',
                 borderRadius: '12px',
               }}
-            />
+            /> */}
             <div
               style={{
                 position: 'absolute',
@@ -314,7 +321,8 @@ export default function VideoGallery({videos}: VideoGalleryProps) {
               <h3 style={{ margin: '0', fontSize: '18px' }}>{video.title}</h3>
             </div>
           </div>
-        ))}
+        )}
+        )}
       </div>
     </section>
   );
