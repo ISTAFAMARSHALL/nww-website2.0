@@ -5,7 +5,7 @@ import logo from '@/public/logo/nww-logo-flat (1).png'
 export default function Logo() {
   return (
     <>
-    <Link href="/" className="inline-flex">
+    <Link href=".." className="inline-flex">
       {/* <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28">
         <path
           className="fill-blue-500"

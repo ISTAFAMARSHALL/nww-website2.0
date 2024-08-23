@@ -30,11 +30,11 @@ export default function GalleryPage() {
       <div style={{ padding: '20px', textAlign: 'center' }}>
         <h1 style={{ fontSize: '36px', marginTop: '100px' , marginBottom: '10px', color: '#333' }}>Our Gallery</h1>
         <p style={{ fontSize: '18px', color: '#666' }}>
-          Explore our latest photos and videos. Click on any item to view more details.
+          Click on any item to view more details.
         </p>
       </div>
       <PhotoGallery />
-      <VideoGallery />
+      {/* <VideoGallery /> */}
     </section>
   );
 }
