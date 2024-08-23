@@ -175,19 +175,81 @@
 //   );
 // }
 
+// 'use client';
+
+// import Image from 'next/image';
+// import peopleIMG1 from '@/app/images/people-images/2024-08-07 Lunch (1).jpeg';
+// import peopleIMG2 from '@/app/images/people-images/2024-08-07 Lunch (10).jpeg';
+
+// export default function VideoGallery() {
+//   const videos = [
+//     { title: 'Video 1', link: '#0', image: peopleIMG1 },
+//     { title: 'Video 2', link: '#0', image: peopleIMG2 },
+//     { title: 'Video 3', link: '#0', image: peopleIMG1 },
+//     { title: 'Video 4', link: '#0', image: peopleIMG2 },
+//   ];
+
+//   return (
+//     <section style={{ maxWidth: '60%', margin: '50px auto' }}>
+//       <h2 style={{ textAlign: 'center', fontSize: '28px', color: '#333', marginBottom: '20px' }}>
+//         Videos
+//       </h2>
+//       <div
+//         style={{
+//           display: 'flex',
+//           flexWrap: 'wrap',
+//           justifyContent: 'space-between',
+//           gap: '30px',
+//         }}
+//       >
+//         {videos.map((video, index) => (
+//           <a  
+//             key={index} 
+//             href={video.link} 
+//             className="hover:transform hover:scale-105" 
+//             style={{ 
+//               display: 'block', 
+//               flex: '1 1 calc(30% - 33px)', 
+//               position: 'relative', 
+//               borderRadius: '12px',
+//               overflow: 'hidden',
+//               boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)',
+//               transition: 'transform 0.3s ease'
+//             }}
+//           >
+//             <Image
+//               src={video.image}
+//               alt={video.title}
+//               width={400}
+//               height={225}
+//               style={{ objectFit: 'cover', width: '100%', height: '100%' }}             
+//             />
+//             <div 
+//               style={{
+//                 position: 'absolute',
+//                 bottom: '0',
+//                 left: '0',
+//                 right: '0',
+//                 padding: '15px',
+//                 background: 'rgba(0, 0, 0, 0.6)',
+//                 color: 'white',
+//                 textAlign: 'center',
+//                 borderRadius: '0 0 12px 12px',
+//               }}
+//             >
+//               <h3 style={{ margin: '0', fontSize: '18px' }}>{video.title}</h3>
+//             </div>
+//           </a>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// }
+
 'use client';
 
-import Image from 'next/image';
-import peopleIMG1 from '@/app/images/people-images/2024-08-07 Lunch (1).jpeg';
-import peopleIMG2 from '@/app/images/people-images/2024-08-07 Lunch (10).jpeg';
 
-export default function VideoGallery() {
-  const videos = [
-    { title: 'Video 1', link: '#0', image: peopleIMG1 },
-    { title: 'Video 2', link: '#0', image: peopleIMG2 },
-    { title: 'Video 3', link: '#0', image: peopleIMG1 },
-    { title: 'Video 4', link: '#0', image: peopleIMG2 },
-  ];
+export default function VideoGallery({videos}) {
 
   return (
     <section style={{ maxWidth: '60%', margin: '50px auto' }}>
@@ -203,28 +265,30 @@ export default function VideoGallery() {
         }}
       >
         {videos.map((video, index) => (
-          <a  
-            key={index} 
-            href={video.link} 
-            className="hover:transform hover:scale-105" 
-            style={{ 
-              display: 'block', 
-              flex: '1 1 calc(30% - 33px)', 
-              position: 'relative', 
+          <div
+            key={index}
+            className="hover:transform hover:scale-105"
+            style={{
+              display: 'block',
+              flex: '1 1 calc(30% - 33px)',
+              position: 'relative',
               borderRadius: '12px',
               overflow: 'hidden',
               boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)',
-              transition: 'transform 0.3s ease'
+              transition: 'transform 0.3s ease',
             }}
           >
-            <Image
-              src={video.image}
-              alt={video.title}
-              width={400}
-              height={225}
-              style={{ objectFit: 'cover', width: '100%', height: '100%' }}             
+            <video
+              src={video.videoSrc}
+              controls
+              style={{ 
+                objectFit: 'cover', 
+                width: '100%', 
+                height: '100%',
+                borderRadius: '12px',
+              }}
             />
-            <div 
+            <div
               style={{
                 position: 'absolute',
                 bottom: '0',
@@ -239,7 +303,7 @@ export default function VideoGallery() {
             >
               <h3 style={{ margin: '0', fontSize: '18px' }}>{video.title}</h3>
             </div>
-          </a>
+          </div>
         ))}
       </div>
     </section>

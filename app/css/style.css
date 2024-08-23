@@ -8,17 +8,6 @@
 
 @import "tailwindcss/utilities";
 
-
-
-.simple-background-text {
-    display: none;
-}
-
-.simple-background-text::before,
-.simple-background-text::after {
-    content: none;
-}
-
 .footer , #testimonials , #features-home {
     background-color: white !important;
     background-image: none !important; 
@@ -27,3 +16,4 @@
     color: #000; 
     /* Optional: Set text color to black for contrast */
 }
+

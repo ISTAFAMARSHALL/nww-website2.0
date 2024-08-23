@@ -34,7 +34,7 @@ export default function GalleryPage() {
         </p>
       </div>
       <PhotoGallery />
-      <VideoGallery />
+      {/* <VideoGallery /> */}
     </section>
   );
 }
