@@ -138,10 +138,10 @@ import Thumbnail184 from '@/app/images/More Than Just a Lunch - Visuals/7 17 202
 // import Thumbnail197 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (22).jpeg';
 // import Thumbnail198 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (23).jpeg';
 // import Thumbnail199 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (24).jpeg';
-import Thumbnail200 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (25).jpeg';
-import Thumbnail201 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (26).jpeg';
-import Thumbnail202 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (27).jpeg';
-import Thumbnail203 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (28).jpeg';
+// import Thumbnail200 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (25).jpeg';
+// import Thumbnail201 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (26).jpeg';
+// import Thumbnail202 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (27).jpeg';
+// import Thumbnail203 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (28).jpeg';
 
 // Joe Rogan Fan Club
 import Thumbnail204 from '@/app/images/More Than Just a Lunch - Visuals/7 31 2024 - Joe Rogan Fan Club/7 31 2024 - Joe Rogan Fan Club (1).jpeg';
@@ -361,10 +361,11 @@ export const EVENTS = [
         // Thumbnail197,
         // Thumbnail198,
         // Thumbnail199,
-        Thumbnail200,
-        Thumbnail201,
-        Thumbnail202,
-        Thumbnail203,],
+        // Thumbnail200,
+        // Thumbnail201,
+        // Thumbnail202,
+        // Thumbnail203,
+      ],
         videos: [
             { title: 'Video 1', videoSrc: '/videos/hippa-complaint/7 16 2024 - HIPPA Compliant Lunch (1).MOV' },
             { title: 'Video 2', videoSrc: '/videos/hippa-complaint/7 16 2024 - HIPPA Compliant Lunch (2).MOV' },
