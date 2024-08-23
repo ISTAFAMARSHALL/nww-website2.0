@@ -12,7 +12,6 @@ export default function PhotoGallery(props) {
     const itemsPhotos = selectedEvent.thumbnails
 
     const itemVideos = selectedEvent.videos
-    console.log(selectedEvent.videos)
 
     const [currentPage, setCurrentPage] = useState(0);
     const itemsPerPage = 6;
@@ -35,9 +34,13 @@ export default function PhotoGallery(props) {
 
   return (
     <section style={{ maxWidth: '60%', margin: '50px auto' , fontFamily: 'Arial, sans-serif' }}>
-      <h2 style={{ textAlign: 'center', fontSize: '28px', color: '#333', marginBottom: '20px' }}>
-        Photos
-      </h2>
+      
+      <h1 style={{ fontSize: '36px', marginTop: '100px' , color: '#333' , padding: '20px', textAlign: 'center'}}>{selectedEvent.title} Event Gallery</h1>
+      
+      <p style={{ fontSize: '18px', color: '#666' , marginBottom: '20px', textAlign: 'center' }}>
+        Explore our latest photos and videos. Click on any item to view more details.
+      </p>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {selectedItems.map((item, index) => (
           <article
