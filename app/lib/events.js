@@ -133,11 +133,11 @@ import Thumbnail184 from '@/app/images/More Than Just a Lunch - Visuals/7 17 202
 // import Thumbnail192 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (17).jpeg';
 // import Thumbnail193 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (18).jpeg';
 // import Thumbnail194 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (19).jpeg';
-import Thumbnail195 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (20).jpeg';
-import Thumbnail196 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (21).jpeg';
-import Thumbnail197 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (22).jpeg';
-import Thumbnail198 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (23).jpeg';
-import Thumbnail199 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (24).jpeg';
+// import Thumbnail195 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (20).jpeg';
+// import Thumbnail196 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (21).jpeg';
+// import Thumbnail197 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (22).jpeg';
+// import Thumbnail198 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (23).jpeg';
+// import Thumbnail199 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (24).jpeg';
 import Thumbnail200 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (25).jpeg';
 import Thumbnail201 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (26).jpeg';
 import Thumbnail202 from '@/app/images/More Than Just a Lunch - Visuals/7 17 2024 - HIPPA Complaint/7 16 2024 - HIPPA Compliant Lunch (27).jpeg';
@@ -356,11 +356,11 @@ export const EVENTS = [
         // Thumbnail192,
         // Thumbnail193,
         // Thumbnail194,
-        Thumbnail195,
-        Thumbnail196,
-        Thumbnail197,
-        Thumbnail198,
-        Thumbnail199,
+        // Thumbnail195,
+        // Thumbnail196,
+        // Thumbnail197,
+        // Thumbnail198,
+        // Thumbnail199,
         Thumbnail200,
         Thumbnail201,
         Thumbnail202,
