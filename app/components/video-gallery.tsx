@@ -248,6 +248,16 @@
 
 'use client';
 
+interface Video {
+  id: string;
+  title: string;
+  url: string;
+  // Add other fields as needed
+}
+
+interface VideoGalleryProps {
+  videos: Video[];
+}
 
 export default function VideoGallery({videos}: VideoGalleryProps) {
 
