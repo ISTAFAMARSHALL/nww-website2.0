@@ -295,7 +295,7 @@ export default function VideoGallery({videos}: VideoGalleryProps) {
             }}
             
           >
-            {/* <video
+            <video
               src={video.videoSrc}
               controls
               style={{ 
@@ -304,7 +304,7 @@ export default function VideoGallery({videos}: VideoGalleryProps) {
                 height: '100%',
                 borderRadius: '12px',
               }}
-            /> */}
+            />
             <div
               style={{
                 position: 'absolute',
