@@ -277,8 +277,6 @@ export default function VideoGallery({videos}: VideoGalleryProps) {
       >
         {videos.map((video, index) => {
           
-          // console.log(video.videoSrc)
-          
           return (
           
           <div
