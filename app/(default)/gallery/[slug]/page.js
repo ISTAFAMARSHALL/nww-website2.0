@@ -38,7 +38,7 @@ export default function PhotoGallery(props) {
       <h1 style={{ fontSize: '36px', marginTop: '100px' , color: '#333' , padding: '20px', textAlign: 'center'}}>{selectedEvent.title} Event Gallery</h1>
       
       <p style={{ fontSize: '18px', color: '#666' , marginBottom: '20px', textAlign: 'center' }}>
-        Explore our latest photos and videos. Click on any item to view more details.
+        Click on any item to view more details.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
