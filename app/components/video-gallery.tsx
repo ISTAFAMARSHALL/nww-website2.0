@@ -296,7 +296,7 @@ export default function VideoGallery({videos}: VideoGalleryProps) {
             
           >
             <video
-              src={video.videoSrc}
+              src={video.url}
               controls
               style={{ 
                 objectFit: 'cover', 
