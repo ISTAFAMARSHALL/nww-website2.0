@@ -201,7 +201,7 @@ export default function TestimonialsGrid() {
           </div>
           {/* Testimonials grid */}
           <div className="grid gap-4 [mask-image:_linear-gradient(to_top,theme(colors.white/.3),_black_800px)] sm:grid-cols-3 md:gap-6">
-            {testimonials.map((testimonial, index) => (
+            {/* {testimonials.map((testimonial, index) => (
               <Testimonial
                 key={index}
                 testimonial={testimonial}
@@ -209,7 +209,7 @@ export default function TestimonialsGrid() {
               >
                 {testimonial.content}
               </Testimonial>
-            ))}
+            ))} */}
           </div>
         </div>
       </div>
