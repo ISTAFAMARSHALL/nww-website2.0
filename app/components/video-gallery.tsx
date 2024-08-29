@@ -222,7 +222,9 @@ export default function VideoGallery({ videos }: VideoGalleryProps) {
             onClick={() => openModal(video)} // Open modal with selected video
           >
             <video
-              ref={(el) => (videoRefs.current[index] = el)} // Assign ref to each video element
+              ref={(el) => {
+                videoRefs.current[index] = el;
+              }}
               src={video.url}
               controls
               style={{
