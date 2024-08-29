@@ -27,7 +27,7 @@ export default function Logo() {
   return (
     <Link href=".." 
     className="inline-flex btn-sm 
-    bg-[#F8577] text-[#F9F9F9] hover:bg-[#90FCF9] transition "
+    bg-[] text-[#F9F9F9] hover:bg-[#90FCF9] transition "
     >
       <Image
         src={logo}
