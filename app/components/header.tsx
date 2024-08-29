@@ -180,12 +180,12 @@ export default function Header() {
           <nav className="hidden md:flex md:grow items-center">
             <ul className="flex grow flex-wrap items-center justify-center gap-4 text-sm">
               <li className="px-3 py-1">
-                <Link href="/" className="text-[#0D1F2D] hover:text-[#546A7B] transition">
+                <Link href="/" className="text-[#F4A690] hover:text-[#546A7B] transition">
                   Home
                 </Link>
               </li>
               <li className="px-3 py-1">
-                <Link href="/our-mission" className="text-[#0D1F2D] hover:text-[#546A7B] transition">
+                <Link href="/our-mission" className="text-[#F4A690] hover:text-[#546A7B] transition">
                   Our Mission
                 </Link>
               </li>
@@ -202,12 +202,12 @@ export default function Header() {
                 </li>
               </Dropdown> */}
               <li className="px-3 py-1">
-                <Link href="/faq" className="text-[#0D1F2D] hover:text-[#546A7B] transition">
+                <Link href="/faq" className="text-[#F4A690] hover:text-[#546A7B] transition">
                   FAQ
                 </Link>
               </li>
               <li className="px-3 py-1">
-                <Link href="/#testimonials" className="text-[#0D1F2D] hover:text-[#546A7B] transition">
+                <Link href="/#testimonials" className="text-[#F4A690] hover:text-[#546A7B] transition">
                   Testimonials
                 </Link>
               </li>
