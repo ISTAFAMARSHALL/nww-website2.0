@@ -3,16 +3,18 @@
 import { useFormStatus } from 'react-dom';
 
 export default function FormSubmit() {
-  const status = useFormStatus();
-
-  if (status.pending) {
-    return <p>Submitting...</p>;
-  }
+  const { pending } = useFormStatus();
 
   return (
     <>
-      <button type="reset" className="mr-4 py-2 px-6 bg-gray-500 text-white rounded">Reset</button>
-      <button type="submit" className="py-2 px-6 bg-blue-600 text-white rounded">Submit</button>
+      {pending ? (
+        <p>Submitting...</p>
+      ) : (
+        <>
+          <button type="reset" style={{ marginRight: '1rem', padding: '0.5rem 1.5rem', backgroundColor: 'gray', color: 'white', borderRadius: '4px' }}>Reset</button>
+          <button type="submit" style={{ padding: '0.5rem 1.5rem', backgroundColor: '#007bff', color: 'white', borderRadius: '4px' }}>Submit</button>
+        </>
+      )}
     </>
   );
 }

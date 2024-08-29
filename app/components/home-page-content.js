@@ -50,7 +50,9 @@ export default function ContentComponent() {
             display: 'flex',
             alignItems: 'center',
             gap: '2rem',
-            width: '80%',
+            width: '100%',
+            maxWidth: '1200px',
+            padding: '0 1rem',
             flexDirection: index % 2 === 0 ? 'row' : 'row-reverse',
           }}
         >

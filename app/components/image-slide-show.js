@@ -1,3 +1,5 @@
+
+
 'use client';
 
 import Image from 'next/image';
@@ -33,7 +35,7 @@ export default function ImageSlideShow() {
   }, []);
 
   return (
-    <div style={{ position: 'relative', width: '100%', height: '100vh', overflow: 'hidden' , fontFamily: 'Arial, sans-serif'  }}>
+    <div style={{ position: 'relative', width: '100%', height: '100vh', overflow: 'hidden', fontFamily: 'Arial, sans-serif' }}>
       {images.map((img, index) => (
         <div
           key={index}
@@ -57,65 +59,65 @@ export default function ImageSlideShow() {
           />
         </div>
       ))}
-      <div
+      <div>
+        {/* Curved Text */}
+        <svg viewBox="0 0 1000 200" style={{ position: 'absolute', top: '35%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 2, width: '100%' }}>
+          <path id="curve1" d="M 50,150 Q 500,50 950,150" fill="transparent" />
+          <text width="1000">
+            <textPath xlinkHref="#curve1" startOffset="50%" textAnchor="middle" style={{ fontSize: '4vw', fill: '#00494D', fontWeight: '900', textShadow: '2px 2px 4px rgba(255, 255, 0, 0.7)', }}>
+              It's Not Just a Club. It's Not Just a Meal. It's...
+            </textPath>
+          </text>
+        </svg>
         
-      >
-        <h1 style={{
-
-          position: 'absolute',
-          top: '45%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          zIndex: 2,
-          textAlign: 'center',
-          fontSize: '45px',
-          color: 'wheat',
-          fontWeight: 'bolder',          
-        }}>It's Not just a Club. It's Not Just a Meal. It's...</h1>
+        {/* Straight Text */}
         <h1 style={{
           position: 'absolute',
-          top: '55%',
+          top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
           zIndex: 2,
           textAlign: 'center',
-          fontSize: '55px',
-          color: 'wheat',
-          fontWeight: 'bolder',
-
-          borderBlockStyle: 'groove',
-          borderBlockColor: 'black',
-        }}>More Than Just a Lunch!</h1>
+          fontSize: '6vw',
+          color: '#00494D',
+          fontWeight: '900',
+          borderBottom: '4px groove black',
+          paddingBottom: '10px',
+          width: '100%',
+          textShadow: '2px 2px 4px rgba(255, 255, 0, 0.7)',
+        }}>
+          More Than Just a Lunch!
+        </h1>
         
-      </div>
-      {/* <button
-        style={{
-          position: 'absolute',
-          top: '38%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          zIndex: 2,
-          textAlign: 'center',
-          fontSize: '45px',
-          color: 'wheat',
-        }}>Learn More</button> */}
-        <a
-          className="btn w-full text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
-          href="#home-page-content"
-          style={{
-            backgroundColor: 'wheat',
-            position: 'absolute',
-            top: '65%',
-            left: '50%',
-            transform: 'translate(-50%, -50%)',
-            zIndex: 2,
-            // textAlign: 'center',
-            fontSize: '25px',
-            // color: 'wheat',
-          }}
+        {/* Buttons */}
+        <div style={{ position: 'absolute', top: '65%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 2 }}>
+          <a
+            className="btn text-gray-800 shadow hover:bg-gray-50"
+            href="#home-page-content"
+            style={{
+              backgroundColor: 'wheat',
+              fontSize: '2.5vw',
+              padding: '10px 20px',
+              marginRight: '10px',
+              fontWeight: '700',
+            }}
           >
             Learn More
           </a>
+          <a
+            className="btn text-gray-800 shadow hover:bg-gray-50"
+            href="/form"
+            style={{
+              backgroundColor: 'wheat',
+              fontSize: '2.5vw',
+              padding: '10px 20px',
+              fontWeight: '700',
+            }}
+          >
+            Request to Attend
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
