@@ -214,7 +214,7 @@ export default function ImageSlideShow() {
             className="btn text-gray-800 shadow hover:bg-gray-50"
             href="#home-page-content"
             style={{
-              backgroundColor: '#FF8577',
+              backgroundColor: '#F4A690',
               color: '#F9F9F9',
               fontSize: '2vw',
               padding: '10px 20px',
@@ -232,7 +232,7 @@ export default function ImageSlideShow() {
             className="btn text-gray-800 shadow hover:bg-gray-50"
             href="/form"
             style={{
-              backgroundColor: '#FF8577',
+              backgroundColor: '#F4A690',
               color: '#F9F9F9',
               fontSize: '2vw',
               padding: '10px 20px',

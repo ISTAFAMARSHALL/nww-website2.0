@@ -69,11 +69,11 @@ export default function LunchDisplay() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-8">
           <article>
-            <h3 className="mb-4 text-2xl font-bold text-[#FF8577]">Every Tuesday</h3>
+            <h3 className="mb-4 text-2xl font-bold text-[#F4A690]">Every Tuesday</h3>
             <p className="text-lg text-[#0D1F2D]">New York, NY</p>
           </article>
           <article>
-            <h3 className="mb-4 text-2xl font-bold text-[#FF8577]">Every Wednesday</h3>
+            <h3 className="mb-4 text-2xl font-bold text-[#F4A690]">Every Wednesday</h3>
             <p className="text-lg text-[#0D1F2D]">Hoboken, NJ</p>
           </article>
         </div>

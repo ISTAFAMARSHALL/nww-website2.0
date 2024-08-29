@@ -25,7 +25,7 @@ import logo from '@/public/logo/nww-logo-flat (1).png';
 
 export default function Logo() {
   return (
-    <Link href=".." className="inline-flex btn-sm bg-[#FF8577] text-[#F9F9F9] hover:bg-[#90FCF9] transition ">
+    <Link href=".." className="inline-flex btn-sm bg-[#F4A690] text-[#F9F9F9] hover:bg-[#90FCF9] transition ">
       <Image
         src={logo}
         alt="logo"

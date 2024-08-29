@@ -216,7 +216,7 @@ export default function Header() {
 
           <ul className="hidden md:flex items-center gap-3">
             <li>
-              <Link href="/form" className="btn-sm bg-[#FF8577] text-[#F9F9F9] hover:bg-[#90FCF9] transition">
+              <Link href="/form" className="btn-sm bg-[#F4A690] text-[#F9F9F9] hover:bg-[#90FCF9] transition">
                 Request to Attend
               </Link>
             </li>

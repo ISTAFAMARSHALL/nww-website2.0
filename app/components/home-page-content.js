@@ -154,7 +154,7 @@ export default function ContentComponent() {
             />
           </div>
           <div className="flex-1 text-lg leading-relaxed">
-            <h1 className="text-3xl font-bold text-[#FF8577] mb-4">{item.header}</h1>
+            <h1 className="text-3xl font-bold text-[#F4A690] mb-4">{item.header}</h1>
             <h3 className="font-semibold  text-xl mb-2">{item.headline}</h3>
             <p>{item.text}</p>
           </div>
