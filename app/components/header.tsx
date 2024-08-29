@@ -56,12 +56,40 @@ export default function Header() {
               </li> */}
               <li className="px-3 py-1">
                 <Link
+                  href="/our-mission"
+                  className="flex items-center text-gray-700 transition hover:text-gray-900"
+                >
+                  Our Mission
+                </Link>
+              </li>
+              {/* 1st level: hover */}
+              <Dropdown title="Events">
+                {/* 2nd level: hover */}
+                <li>
+                  <Link
+                    href="/gallery"
+                    className="flex rounded-lg px-2 py-1.5 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Upcoming
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/gallery/#past-events"
+                    className="flex rounded-lg px-2 py-1.5 text-sm text-gray-700 hover:bg-gray-100"
+                  >
+                    Past
+                  </Link>
+                </li>
+              </Dropdown>
+              {/* <li className="px-3 py-1">
+                <Link
                   href="/gallery"
                   className="flex items-center text-gray-700 transition hover:text-gray-900"
                 >
-                  Gallery
+                  Events
                 </Link>
-              </li>
+              </li> */}
               <li className="px-3 py-1">
                 <Link
                   href="/faq"
@@ -70,23 +98,16 @@ export default function Header() {
                   FAQ
                 </Link>
               </li>
+              
               <li className="px-3 py-1">
                 <Link
-                  href="/about"
+                  href="/#testimonials"
                   className="flex items-center text-gray-700 transition hover:text-gray-900"
                 >
-                  Our Mission
+                  Testimonials
                 </Link>
               </li>
               {/* <li className="px-3 py-1">
-                <Link
-                  href="/form"
-                  className="flex items-center text-gray-700 transition hover:text-gray-900"
-                >
-                  Form
-                </Link>
-              </li>
-              <li className="px-3 py-1">
                 <Link
                   href="/survey"
                   className="flex items-center text-gray-700 transition hover:text-gray-900"
@@ -95,26 +116,7 @@ export default function Header() {
                 </Link>
               </li> */}
 
-              {/* 1st level: hover */}
-              {/* <Dropdown title="Extra"> */}
-                {/* 2nd level: hover */}
-                {/* <li>
-                  <Link
-                    href="/support"
-                    className="flex rounded-lg px-2 py-1.5 text-sm text-gray-700 hover:bg-gray-100"
-                  >
-                    Support center
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/apps"
-                    className="flex rounded-lg px-2 py-1.5 text-sm text-gray-700 hover:bg-gray-100"
-                  >
-                    Apps
-                  </Link>
-                </li> */}
-              {/* </Dropdown> */}
+              
             </ul>
           </nav>
 
@@ -128,14 +130,14 @@ export default function Header() {
                 Request to Attend
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="/"
                 className="btn-sm bg-gray-800 text-gray-200 shadow hover:bg-gray-900"
               >
                 Events
               </Link>
-            </li>
+            </li> */}
           </ul>
 
           {/* <MobileMenu /> */}

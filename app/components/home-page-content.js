@@ -3,45 +3,47 @@
 import Image from 'next/image';
 import HomePageIMG from '@/app/images/lunch-images/2024-06-19 Punctuality is Key (25).jpeg';
 import HomePageIMG2 from '@/app/images/lunch-images/WhatsApp Image 2024-05-22 at 3.18.19 PM.jpeg'
-import HomePageIMG3 from '@/app/images/lunch-images/2024-08-07 Lunch (13).jpeg';
+import HomePageIMG3 from '@/app/images/home-page-content-images/2023.11.22_Healthcare.jpg';
 import HomePageIMG4 from '@/app/images/lunch-images/2024-08-07 Lunch (14).jpeg';
+
 
 const contentData = [
   {
     image: HomePageIMG,
-    text: 'Place verbiage regarding this image Here.',
+    header:'Who We Are',
+    headline:'Pay-it-forward Practitioners',
+    text: 'We are a community of like-minded individuals dedicated to paying it forward, driven by meaningful connections, professional development, and personal growth, with a strong commitment to benefiting others. Led by Adam Connors',
   },
   {
     image: HomePageIMG2,
-    text: 'Place verbiage regarding this image Here.',
+    header:'What We Do',
+    headline:'Connect High Caliber People',
+    text: 'We connect, support, and empower each other through personalized introductions, business insights, and a commitment to mutual success.',
   },
   {
     image: HomePageIMG3,
-    text: 'Place verbiage regarding this image Here.',
-  },
-  {
-    image: HomePageIMG4,
-    text: 'Place verbiage regarding this image Here.',
+    header:'What to expect',
+    headline:'More Than Just a Lunch',
+    text: 'Excellent food, Intellectual discussion, and inspirational company. Targeted networking, personalized connections, and actionable insights to help you achieve your specific goals.',
   },
 ];
 
 export default function ContentComponent() {
   return (
-    <div
+    <div id="home-page-content" 
       style={{
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         maxWidth: '80%',
         margin: '0 auto',
+        marginTop: '60px',
         gap: '3rem',
         fontFamily: 'Arial, sans-serif'
       }}
     >
-      <h2
-        style={{ fontSize: '30px'}}
-      >Some Verbiage Here</h2>
       {contentData.map((item, index) => (
+        
         <div
           key={index}
           style={{
@@ -73,6 +75,11 @@ export default function ContentComponent() {
               lineHeight: '1.6',
             }}
           >
+            <h1 style={{
+              fontSize: '32px'
+            }}
+            className="font-bold">{item.header}</h1>
+            <h3 className="font-bold">{item.headline}</h3>
             <p>{item.text}</p>
           </div>
         </div>

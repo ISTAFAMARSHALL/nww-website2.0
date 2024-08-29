@@ -1,6 +1,17 @@
 import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
-export default function Testimonial({
+
+// Importing PNG icons for social media
+import LinkedinIcon from "@/app/images/social-icons/5296501_linkedin_network_linkedin logo_icon.png";
+import YouTubeIcon from "@/app/images/social-icons/5296521_play_video_vlog_youtube_youtube logo_icon.png";
+import InstagramIcon from "@/app/images/social-icons/5296765_camera_instagram_instagram logo_icon.png";
+import FacebookIcon from "@/app/images/social-icons/5296499_fb_facebook_facebook logo_icon.png";
+import TwitterIcon from "@/app/images/social-icons/11244080_x_twitter_elon musk_twitter new logo_icon.png";
+import VimeoIcon from "@/app/images/social-icons/5296519_video_vimeo_vimeo logo_icon.png";
+
+export default function Testimonial(
+  {
   testimonial,
   cloned = false,
   className,
@@ -8,6 +19,7 @@ export default function Testimonial({
 }: {
   testimonial: {
     img: StaticImageData;
+    title: string;
     name: string;
     username?: string;
     date: string;
@@ -19,47 +31,69 @@ export default function Testimonial({
   cloned?: boolean;
   className?: string;
   children: React.ReactNode;
-}) {
+}
+) {
   const channelIcon = (channel: string) => {
     switch (channel) {
       case "Twitter":
         return (
-          <svg
-            className="fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            width="17"
-            height="15"
-            fill="none"
+          <Link
+            className="flex items-center justify-center transition hover:opacity-80"
+            href=""
+            aria-label="Twitter"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <path
-              fillRule="evenodd"
-              d="M16.928 14.054H11.99L8.125 9.162l-4.427 4.892H1.243L6.98 7.712.928.054H5.99L9.487 4.53 13.53.054h2.454l-5.358 5.932 6.303 8.068Zm-4.26-1.421h1.36L5.251 1.4H3.793l8.875 11.232Z"
+            <img
+              src={TwitterIcon.src}
+              alt="Twitter"
+              className="h-8 w-8"
             />
-          </svg>
+          </Link>
         );
-      case "Google":
-        return (
-          <svg
-            className="fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="none"
-          >
-            <path d="M15.68 6.546H8.044v3.273h4.328c-.692 2.182-2.4 2.909-4.363 2.909a4.728 4.728 0 1 1 3.035-8.346l2.378-2.265A8 8 0 1 0 8.01 16.001c4.411 0 8.4-2.909 7.671-9.455Z"></path>
-          </svg>
-        );
+      // case "Google":
+      //   return (
+      //     <svg
+      //       className="fill-current"
+      //       xmlns="http://www.w3.org/2000/svg"
+      //       width="16"
+      //       height="16"
+      //       fill="none"
+      //     >
+      //       <path d="M15.68 6.546H8.044v3.273h4.328c-.692 2.182-2.4 2.909-4.363 2.909a4.728 4.728 0 1 1 3.035-8.346l2.378-2.265A8 8 0 1 0 8.01 16.001c4.411 0 8.4-2.909 7.671-9.455Z"></path>
+      //     </svg>
+      //   );
       case "YouTube":
         return (
-          <svg
-            className="fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            width="17"
-            height="13"
-            fill="none"
+          <Link
+            className="flex items-center justify-center transition hover:opacity-80"
+            href="https://www.youtube.com/channel/UC_GuuTjdzX92sVsQaN4iNWA/videos"
+            aria-label="YouTube"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <path d="M16.044 3.416c-.178-1.303-.762-2.213-2.158-2.438C11.693.54 8.294.48 8.294.48s-3.4-.059-5.606.303C1.284.958.568 1.846.446 3.143.223 4.44.19 6.34.19 6.34s-.033 1.9.144 3.203c.178 1.303.762 2.214 2.158 2.438 2.193.438 5.592.498 5.592.498s3.4.059 5.606-.303c1.405-.275 2.02-1.065 2.242-2.36.223-1.297.256-3.197.256-3.197s.033-1.9-.144-3.203ZM6.137 9.444l.105-5.999 4.946 3.087-5.051 2.912Z"></path>
-          </svg>
+            <img
+              src={YouTubeIcon.src}
+              alt="YouTube"
+              className="h-8 w-8"
+            />
+          </Link>
+        );
+        case "LinkedIn":
+        return (
+          <Link
+            className="flex items-center justify-center transition hover:opacity-80"
+            href="https://www.linkedin.com/company/network-wise/"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={LinkedinIcon.src}
+              alt="LinkedIn"
+              className="h-8 w-8"
+            />
+          </Link>
         );
       default:
         return "";
@@ -80,6 +114,7 @@ export default function Testimonial({
         />
         <div>
           <div className="font-bold">{testimonial.name}</div>
+          <div className="font-bold">{testimonial.title}</div>
           {testimonial.username ? (
             <div>
               <a

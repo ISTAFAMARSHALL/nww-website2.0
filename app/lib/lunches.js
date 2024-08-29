@@ -94,6 +94,6 @@ export const LUNCHES = [
       description: 'TBD',
       location: 'Bareburger, 366 W 46th St, New York, NY 10036, USA',
       state: 'NY'
-    }
+    },
   ];
   

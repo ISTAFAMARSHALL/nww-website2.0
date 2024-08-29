@@ -1,3 +1,5 @@
+import VideoModal from "@/app/components/video-modal"
+
 interface Video {
   id: string;
   title: string;

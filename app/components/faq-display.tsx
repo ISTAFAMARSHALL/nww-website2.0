@@ -9,7 +9,7 @@ export default function FAQDisplay() {
       >
         <div className="h-80 w-80 rounded-full bg-gradient-to-tr from-blue-500 to-gray-900 opacity-40 blur-[160px]" />
       </div> */}
-      <div className="mx-auto max-w-6xl px-4 sm:px-6" style={{marginBottom: '-80px' , marginTop:'-80px'}}>
+      <div className="mx-auto max-w-6xl px-4 sm:px-6" style={{marginBottom: '-80px' , marginTop:'-60px'}}>
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-24 text-center md:pb-28"
