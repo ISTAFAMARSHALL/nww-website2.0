@@ -136,10 +136,11 @@ import VideoGallery from '@/app/components/video-gallery';
 import Modal from '@/app/components/modal';
 
 
-export default function PhotoGallery(props) {
+export default function EventGallery(props) {
   const selectedEvent = EVENTS.find((item) => item.slug === props.params.slug);
   const itemsPhotos = selectedEvent.thumbnails;
   const itemVideos = selectedEvent.videos;
+  const filterSlug = props.params.slug
 
   const [currentPage, setCurrentPage] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -228,8 +229,7 @@ export default function PhotoGallery(props) {
       </div>
 
       <br />
-      {itemVideos.length > 0 && 
-      (<VideoGallery videos={itemVideos} />)}
+      {itemVideos.length > 0 && <VideoGallery videos={itemVideos} />}
 
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         {selectedImage && (

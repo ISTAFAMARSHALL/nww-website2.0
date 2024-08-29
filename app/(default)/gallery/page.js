@@ -2,6 +2,7 @@ import PhotoGallery from "@/app/components/photo-gallery";
 import { EVENTS } from "@/app/lib/events";
 import UpcomingEvents from "@/app/components/upcoming-events";
 
+
 export const metadata = {
   title: 'Event Gallery',
   description: 'Explore the latest photos and videos from our Events.',
@@ -20,6 +21,7 @@ export default function GalleryPage() {
       <UpcomingEvents />
       <h1 className="font-bold" id="past-events" style={{ padding: '20px', textAlign: 'center' , fontSize: '36px', marginBottom: '-40px' }}>Past events</h1>
       <PhotoGallery selectedItems={EVENTS} />
+      
     </section>
   );
 }
