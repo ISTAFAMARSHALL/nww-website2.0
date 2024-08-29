@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Logo from "./logo";
 import Dropdown from "@/components/dropdown";
-import MobileMenu from './mobile-menu';
+// import MobileMenu from './mobile-menu';
 
 // export default function Header() {
 //   const [top, setTop] = useState<boolean>(true);
@@ -223,7 +223,7 @@ export default function Header() {
           </ul>
 
           {/* Mobile menu */}
-          <MobileMenu />
+          {/* <MobileMenu /> */}
         </div>
       </div>
     </header>
