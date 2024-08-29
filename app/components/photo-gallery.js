@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function GalleryPage({selectedItems}) {
 
   // let selected;
- 
+
   // if (selectedItems.splice(9)) {
   //   console.timeLog(selectedItems.splice(9))
   //   selected = selectedItems.splice(9)

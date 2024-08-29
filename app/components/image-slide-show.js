@@ -1,5 +1,3 @@
-
-
 'use client';
 
 import Image from 'next/image';
@@ -46,7 +44,7 @@ export default function ImageSlideShow() {
             width: '100%',
             height: '100%',
             opacity: index === currentImageIndex ? 1 : 0,
-            transition: 'opacity 0s ease-in-out',
+            transition: 'opacity 0s ease',
             zIndex: index === currentImageIndex ? 1 : 0,
           }}
         >

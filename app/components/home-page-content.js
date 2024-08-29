@@ -20,20 +20,13 @@ const contentData = [
     uplifting others. Join us to connect with top-tier professionals\
     who are at the forefront of their fields, all driven by a\
     shared passion for growth, achievement, and making a meaningful\
-    impact. Led by the renowned Adam Connors, our event is an\
-    unparalleled opportunity to engage with individuals who are\
-    dedicated to pushing boundaries, achieving greatness, and\
-    helping others do the same. Be part of this transformative\
-    experience and surround yourself with those who will challenge\
-    and inspire you to reach new heights.',
+    impact.',
   },
   {
     image: HomePageIMG2,
     header:'What We Do',
     headline:'Connect High-Caliber People',
-    text: 'We create extraordinary opportunities by connecting\
-    exceptional individuals through meticulously curated introductions\
-    and insightful exchanges. Our mission is to foster an environment\
+    text: 'Our mission is to foster an environment\
     where every interaction leads to transformative growth and mutual\
     success.\This is not just networking—it’s a uniquely enriching\
     experience. We are dedicated to empowering our members and\
@@ -56,7 +49,12 @@ const contentData = [
     form valuable connections with peers who share your drive, and\
     savor exceptional cuisine that complements this unparalleled\
     experience. Discover how these intimate interactions can unlock\
-    new opportunities for personal and professional growth.',
+    new opportunities for personal and professional growth. Led by the renowned Adam Connors, our event is an\
+    unparalleled opportunity to engage with individuals who are\
+    dedicated to pushing boundaries, achieving greatness, and\
+    helping others do the same. Be part of this transformative\
+    experience and surround yourself with those who will challenge\
+    and inspire you to reach new heights.',
   },
 ];
 
