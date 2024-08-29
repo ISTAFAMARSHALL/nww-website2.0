@@ -2,15 +2,15 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
-import HomePageIMG from "@/app/images/home-page-header-images/2024-05-29 (1).jpeg";
-import HomePageIMG2 from "@/app/images/home-page-header-images/2024-06-11  (1).jpeg";
-import HomePageIMG3 from "@/app/images/home-page-header-images/2024-06-26 (4).jpeg";
-import HomePageIMG4 from "@/app/images/home-page-header-images/2024.01.31_Motley Crew doing Yave shots.jpg";
-import HomePageIMG5 from "@/app/images/home-page-header-images/Pasted Graphic.png";
-import HomePageIMG6 from "@/app/images/home-page-header-images/Pasted Graphic 1.png";
+import HomePageIMG from "@/app/images/new-home-images/1MTJALlandingslide50percentopacity.png";
+import HomePageIMG2 from "@/app/images/new-home-images/2MTJALlandingslide50percentopacity.png";
+import HomePageIMG3 from "@/app/images/new-home-images/3MTJALlandingslide50percentopacity.png";
+import HomePageIMG4 from "@/app/images/new-home-images/4MTJALlandingslide50percentopacity.png";
+import HomePageIMG5 from "@/app/images/new-home-images/5MTJALlandingslide50percentopacity.png";
+// import HomePageIMG6 from "@/app/images/home-page-header-images/Pasted Graphic 1.png";
 
 const images = [
-  { image: HomePageIMG6, alt: "More Than Just A Lunch!" },
+  // { image: HomePageIMG6, alt: "More Than Just A Lunch!" },
   { image: HomePageIMG, alt: "More Than Just A Lunch!" },
   { image: HomePageIMG2, alt: "More Than Just A Lunch!" },
   { image: HomePageIMG3, alt: "More Than Just A Lunch!" },
