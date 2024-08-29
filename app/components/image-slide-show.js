@@ -128,7 +128,7 @@ export default function ImageSlideShow() {
           style={{
             position: "absolute",
             top: "65%",
-            left: "50%",
+            left: "45%",
             transform: "translate(-50%, -50%)",
             zIndex: 2,
             display: "flex",
