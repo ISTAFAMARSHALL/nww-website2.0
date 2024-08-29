@@ -148,6 +148,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Logo from "./logo";
+import LogoCopy from "./logo copy"
 import Dropdown from "@/components/dropdown";
 
 export default function Header() {
@@ -172,7 +173,8 @@ export default function Header() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="relative flex items-center justify-between h-14 rounded-2xl px-3">
           <div className="flex items-center">
-            <Logo />
+            {/* <Logo /> */}
+            <LogoCopy />
           </div>
 
           <nav className="hidden md:flex md:grow items-center">
