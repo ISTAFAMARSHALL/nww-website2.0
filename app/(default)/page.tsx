@@ -9,7 +9,7 @@ import HomePageContent from "@/app/components/home-page-content"
 
 import HomePageVideo from "@/app/components/home-page-video"
 
-import BusinessCategories from "@/app/components/business-categories";
+
 
 import FAQDisplay from "@/app/components/faq-display"
 
