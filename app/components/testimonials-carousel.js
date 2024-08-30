@@ -120,7 +120,6 @@ export default function TestimonialsCarousel() {
         <div className="relative mx-auto flex max-w-[94rem] justify-center">
           <div className="group inline-flex w-full flex-nowrap py-12 md:py-20">
             <div
-              style={{marginTop: '-200px'}}
               className={`flex ${isScrollingPaused ? '' : 'animate-[infinite-scroll_60s_linear_infinite]'} items-start justify-center group-hover:[animation-play-state:paused] md:justify-start [&>*]:mx-3`}
             >
               {TESTIMONIALCONTENT.map((testimonial, index) => (
