@@ -278,7 +278,7 @@ export default function Footer({ border = false }) {
 
           <div className="space-y-2 sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h3 className="text-sm font-medium text-[#0D1F2D]">Social</h3>
-            <ul className="flex gap-1">
+            <ul className="flex gap-2">
               <li>
                 <Link href="https://www.linkedin.com/company/network-wise/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center transition hover:opacity-80">
                   <img src={LinkedinIcon.src} alt="LinkedIn" className="h-8 w-8" />
