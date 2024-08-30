@@ -8,7 +8,7 @@ export default function HomePageVideo() {
       <video
         controls
         className="w-full max-w-4xl rounded-lg shadow-lg"
-        style={{ height: 'auto', objectFit: 'cover' }}
+        style={{ height: 'auto', objectFit: 'cover' , marginTop: '-20px'}}
       >
         <source src="/videos/home-page/More_Than_Just_a_Lunch-vimeo-916311975-hls-fastly_skyfire_sep-4646dash-fastly_skyfire_sep-audio-b8fb5042-1.mp4" type="video/mp4" />
         

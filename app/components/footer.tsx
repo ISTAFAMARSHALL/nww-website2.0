@@ -229,7 +229,7 @@ import VimeoIcon from "@/app/images/social-icons/5296519_video_vimeo_vimeo logo_
 
 export default function Footer({ border = false }) {
   return (
-    <footer style={{ justifyContent: "center" }} className="footer">
+    <footer style={{ justifyContent: "center" , marginTop: '-100px'}} className="footer">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className={`grid gap-10 py-8 sm:grid-cols-12 md:py-12 ${border ? "border-t border-[#546A7B]" : ""}`}>
           <div style={{ padding: "10px" }} className="space-y-2 sm:col-span-12 lg:col-span-4">

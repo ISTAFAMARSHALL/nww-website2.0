@@ -26,8 +26,7 @@ import logo from '@/public/logo/nwwcompasscolorLOGO.png';
 export default function Logo() {
   return (
     <Link href=".." 
-    className="inline-flex btn-sm 
-    bg-[] text-[#F9F9F9] hover:bg-[#F4A690] transition "
+    className="inline-flex "
     >
       <Image
         src={logo}

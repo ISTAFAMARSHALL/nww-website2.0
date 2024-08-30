@@ -100,7 +100,7 @@ const contentData = [
     image: HomePageIMG,
     header: 'Attendees',
     headline: 'Elite Visionaries and Achievers',
-    text: 'A room filled with people who refuse to settle for mediocrity, who are driven by curiosity and a relentless pursuit of excellence. These are individuals who believe in paying it forward and cherish the value of meaningful connections and enriching conversations',
+    text: 'A room filled with people who refuse to settle for mediocrity, who are driven by curiosity and a relentless pursuit of excellence. These are individuals who believe in paying it forward and cherish the value of meaningful connections and insightful conversations.',
   },
   {
     image: HomePageIMG2,
@@ -129,6 +129,7 @@ export default function ContentComponent() {
   return (
     <div
       id="home-page-content"
+      style={{marginTop: '100px'}}
       className="flex flex-col items-center max-w-4xl mx-auto mt-16 gap-12 font-sans text-[#0D1F2D]"
     >
       {contentData.map((item, index) => (

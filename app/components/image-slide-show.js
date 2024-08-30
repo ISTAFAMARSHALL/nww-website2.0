@@ -1,5 +1,6 @@
 'use client'
 import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 import HomePageIMG from "@/app/images/home-page-header-images/2024-05-29 (1).jpeg";
@@ -90,7 +91,7 @@ export default function ImageSlideShow() {
               style={{
                 fontSize: "1.5vw",
                 fill: "#F4A690",
-                fontWeight: "1000",
+                fontWeight: "500",
                 textShadow:
                   "2px 2px 4px rgba(0, 0, 0, 0.7), -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff", // white outline
                 padding: "20px",
@@ -112,7 +113,7 @@ export default function ImageSlideShow() {
             textAlign: "center",
             fontSize: "3.5vw",
             color: "#F4A690",
-            fontWeight: "900",
+            fontWeight: "750",
             paddingBottom: "10px",
             width: "100%",
             textShadow:
@@ -128,7 +129,7 @@ export default function ImageSlideShow() {
           style={{
             position: "absolute",
             top: "65%",
-            left: "45%",
+            left: "50%",
             transform: "translate(-50%, -50%)",
             zIndex: 2,
             display: "flex",
@@ -136,7 +137,7 @@ export default function ImageSlideShow() {
             width: "400px",
           }}
         >
-          <a
+          {/* <a
             className="btn text-white shadow hover:text-[#0D1F2D] transition"
             href="#home-page-content"
             style={{
@@ -153,8 +154,14 @@ export default function ImageSlideShow() {
             }}
           >
             Learn More
-          </a>
-          <a
+          </a> */}
+            <Link href="#home-page-content" className="btn-sm text-lg bg-[#F4A690] text-[#F9F9F9] hover:text-[#0D1F2D] transition">
+              Learn More
+            </Link>
+            <Link href="/form" className="btn-sm text-lg bg-[#F4A690] text-[#F9F9F9] hover:text-[#0D1F2D] transition">
+              Request to Attend
+            </Link>
+          {/* <a
             className="btn text-white shadow hover:text-[#0D1F2D] transition"
             href="/form"
             style={{
@@ -172,7 +179,7 @@ export default function ImageSlideShow() {
             }}
           >
             Request to Attend
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

@@ -26,7 +26,7 @@ export default function Home() {
       {/* <BusinessCategories /> */}
       <LunchDisplay />
       <HomePageVideo />
-      <FAQDisplay />
+      {/* <FAQDisplay /> */}
       <TestimonialsCarousel />
       
     </div>
