@@ -166,12 +166,12 @@ export default function Header() {
   return (
     <header
       style={{ fontFamily: "Arial, sans-serif" }}
-      className={`fixed top-2 z-30 w-full transition-colors duration-300 ease-in-out ${
-        top ? "bg-transparent" : "bg-[#F9F9F9] shadow-md"
+      className={`fixed top-3 left-[10%] z-30 w-[80%] transition-colors duration-300 rounded-xl ease-in-out ${
+        top ? "bg-white" : "bg-[#F9F9F9] shadow-md"
       }`}
     >
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="relative flex items-center justify-between h-14 rounded-2xl px-3">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+        <div className="relative flex items-center justify-between h-12 rounded-2xl px-3">
           <div className="flex items-center">
             {/* <Logo /> */}
             <LogoCopy />
@@ -180,12 +180,12 @@ export default function Header() {
           <nav className="hidden md:flex md:grow items-center">
             <ul className="flex grow flex-wrap items-center justify-center gap-4 text-sm">
               <li className="px-3 py-1">
-                <Link href="/" className="text-[#F4A690] hover:text-[#546A7B] transition">
+                <Link href="/" className="text-[#F4A690] hover:text-[#0D1F2D] transition">
                   Home
                 </Link>
               </li>
               <li className="px-3 py-1">
-                <Link href="/our-mission" className="text-[#F4A690] hover:text-[#546A7B] transition">
+                <Link href="/our-mission" className="text-[#F4A690] hover:text-[#0D1F2D] transition">
                   Our Mission
                 </Link>
               </li>
@@ -202,21 +202,20 @@ export default function Header() {
                 </li>
               </Dropdown> */}
               <li className="px-3 py-1">
-                <Link href="/faq" className="text-[#F4A690] hover:text-[#546A7B] transition">
+                <Link href="/faq" className="text-[#F4A690] hover:text-[#0D1F2D] transition">
                   FAQ
                 </Link>
               </li>
               <li className="px-3 py-1">
-                <Link href="/#testimonials" className="text-[#F4A690] hover:text-[#546A7B] transition">
+                <Link href="/#testimonials" className="text-[#F4A690] hover:text-[#0D1F2D] transition">
                   Testimonials
                 </Link>
               </li>
             </ul>
           </nav>
-
           <ul className="hidden md:flex items-center gap-3">
             <li>
-              <Link href="/form" className="btn-sm bg-[#F4A690] text-[#F9F9F9] hover:bg-[#90FCF9] transition">
+              <Link href="/form" className="btn-sm text-lg bg-[#F4A690] text-[#F9F9F9] hover:text-[#0D1F2D] transition">
                 Request to Attend
               </Link>
             </li>

@@ -98,12 +98,9 @@ import HomePageIMG3 from '@/app/images/home-page-content-images/2023.11.22_Healt
 const contentData = [
   {
     image: HomePageIMG,
-    header: 'Who We Are',
+    header: 'Attendees',
     headline: 'Elite Visionaries and Achievers',
-    text: 'A community of like-minded individuals dedicated to paying it forward, driven by meaningful connections, professional development, and personal growth, with a strong commWe are a distinguished network of driven individuals, each one a beacon of motivation and excellence in their personal and professional lives.\
-    Join us to connect with top-tier professionals who are at the forefront of their fields, all driven by a\
-    shared passion for growth, achievement, and making a meaningful\
-    impact.',
+    text: 'A room filled with people who refuse to settle for mediocrity, who are driven by curiosity and a relentless pursuit of excellence. These are individuals who believe in paying it forward and cherish the value of meaningful connections and enriching conversations',
   },
   {
     image: HomePageIMG2,
@@ -111,13 +108,8 @@ const contentData = [
     headline: 'Connect High Caliber People',
     text: 'Our mission is to foster an environment\
     where every interaction leads to transformative growth and mutual\
-    success.\This is not just networking—it’s a uniquely enriching\
-    experience. We are dedicated to empowering our members and\
-    supporting their ambitions, while also prioritizing the genuine\
-    benefit of others. Engage with a select community where each\
-    connection is purposeful, every insight is impactful, and every\
-    opportunity is uniquely designed for both personal and collective\
-    advancement.',
+    success.\ This is not just networking—it’s a uniquely enriching\
+    experience.',
   },
   {
     image: HomePageIMG3,

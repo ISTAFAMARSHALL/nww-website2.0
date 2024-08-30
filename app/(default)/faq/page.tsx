@@ -200,7 +200,7 @@ export default function FAQPage() {
                 fontSize: '24px',
                 borderBottom: '1px solid #546A7B',
                 transition: 'color 0.3s ease',
-                color: activeIndex === index ? '#90FCF9' : '#0D1F2D',
+                color: activeIndex === index ? '#F4A690' : '#0D1F2D',
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'center',

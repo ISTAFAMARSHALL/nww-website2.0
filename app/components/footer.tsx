@@ -243,12 +243,12 @@ export default function Footer({ border = false }) {
             <h3 className="text-sm font-medium text-[#0D1F2D]">Company</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/our-mission" className="text-[#546A7B] hover:text-[#90FCF9] transition">
+                <Link href="/our-mission" className="text-[#546A7B] hover:text-[#F4A690] transition">
                   Our Mission
                 </Link>
               </li>
               <li>
-                <Link href="https://www.networkwise.com/articles/networking-articles/" target="_blank" rel="noopener noreferrer" className="text-[#546A7B] hover:text-[#90FCF9] transition">
+                <Link href="https://www.networkwise.com/articles/networking-articles/" target="_blank" rel="noopener noreferrer" className="text-[#546A7B] hover:text-[#F4A690] transition">
                   Blog
                 </Link>
               </li>
@@ -259,17 +259,17 @@ export default function Footer({ border = false }) {
             <h3 className="text-sm font-medium text-[#0D1F2D]">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="https://www.networkwise.com" target="_blank" rel="noopener noreferrer" className="text-[#546A7B] hover:text-[#90FCF9] transition">
-                  NetworkWise
+                <Link href="https://www.networkwise.com" target="_blank" rel="noopener noreferrer" className="text-[#546A7B] hover:text-[#F4A690] transition">
+                  NetWorkWise
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="text-[#546A7B] hover:text-[#90FCF9] transition">
+                <Link href="/faq" className="text-[#546A7B] hover:text-[#F4A690] transition">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link href="https://www.networkwise.com/shop/" target="_blank" rel="noopener noreferrer" className="text-[#546A7B] hover:text-[#90FCF9] transition">
+                <Link href="https://www.networkwise.com/shop/" target="_blank" rel="noopener noreferrer" className="text-[#546A7B] hover:text-[#F4A690] transition">
                   Store Info
                 </Link>
               </li>

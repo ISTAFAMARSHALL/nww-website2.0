@@ -79,7 +79,7 @@ export default function LunchDisplay() {
         </div>
         <div className="mt-8">
           <Link href="/form">
-            <p className="inline-block rounded bg-[#546A7B] px-12 py-4 text-[#F9F9F9] text-lg font-semibold shadow-lg transition-transform transform hover:scale-105">
+            <p className="inline-block rounded bg-[#546A7B] hover:text-[#F4A690] transition px-12 py-4 text-[#F9F9F9] text-lg font-semibold shadow-lg transition-transform transform hover:scale-105">
               Reserve Your Spot
             </p>
           </Link>

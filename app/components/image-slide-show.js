@@ -88,7 +88,7 @@ export default function ImageSlideShow() {
               startOffset="50%"
               textAnchor="middle"
               style={{
-                fontSize: "2.25vw",
+                fontSize: "1.5vw",
                 fill: "#F4A690",
                 fontWeight: "1000",
                 textShadow:
@@ -96,7 +96,7 @@ export default function ImageSlideShow() {
                 padding: "20px",
               }}
             >
-              It's Not Just a Club. It's Not Just a Meal. It's...
+              Not your ordinary people and it's not Just a Meal. It's...
             </textPath>
           </text>
         </svg>
@@ -110,7 +110,7 @@ export default function ImageSlideShow() {
             transform: "translate(-50%, -50%)",
             zIndex: 2,
             textAlign: "center",
-            fontSize: "5vw",
+            fontSize: "3.5vw",
             color: "#F4A690",
             fontWeight: "900",
             paddingBottom: "10px",
@@ -120,7 +120,7 @@ export default function ImageSlideShow() {
             padding: "20px",
           }}
         >
-          More Than Just a Lunch!
+          "More Than Just a Lunch!"
         </h1>
 
         {/* Buttons */}
@@ -137,11 +137,11 @@ export default function ImageSlideShow() {
           }}
         >
           <a
-            className="btn text-gray-800 shadow hover:bg-gray-50"
+            className="btn text-white shadow hover:text-[#0D1F2D] transition"
             href="#home-page-content"
             style={{
               backgroundColor: "#F4A690",
-              color: "#F9F9F9",
+              
               fontSize: "2vw",
               padding: "10px 20px",
               fontWeight: "700",
@@ -155,11 +155,11 @@ export default function ImageSlideShow() {
             Learn More
           </a>
           <a
-            className="btn text-gray-800 shadow hover:bg-gray-50"
+            className="btn text-white shadow hover:text-[#0D1F2D] transition"
             href="/form"
             style={{
               backgroundColor: "#F4A690",
-              color: "#F9F9F9",
+              
               fontSize: "2vw",
               padding: "10px 20px",
               fontWeight: "700",
@@ -168,6 +168,7 @@ export default function ImageSlideShow() {
               textDecoration: "none",
               flex: 1,
               marginLeft: "20px",
+              
             }}
           >
             Request to Attend

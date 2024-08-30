@@ -40,6 +40,8 @@
 //   );
 // }
 
+import Link from "next/link";
+
 export default function FAQDisplay() {
   return (
     <section id="features-home" className="relative">
@@ -77,17 +79,11 @@ export default function FAQDisplay() {
             </article>
           </div>
           <div className="flex justify-center mt-10">
-            <a href="/faq"
-              style={{
-                backgroundColor: '#546A7B',
-                color: '#F9F9F9',
-                fontSize: '18px',
-                padding: '10px 20px',
-                borderRadius: '8px',
-              }}
-            >
-              See All Frequently Asked Questions
-            </a>
+            <Link href="/faq">
+            <p className="inline-block rounded bg-[#546A7B] hover:text-[#F4A690] transition px-12 py-4 text-[#F9F9F9] text-lg font-semibold shadow-lg transition-transform transform hover:scale-105">
+            See All Frequently Asked Questions
+            </p>
+          </Link>
           </div>
         </div>
       </div>
