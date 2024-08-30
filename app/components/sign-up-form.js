@@ -6,6 +6,7 @@ import FormSubmit from '@/app/components/form-submit';
 export default function SignUpForm() {
   const [formData, setFormData] = useState({
     fullName: '',
+    cellNumber: '',  // Added cell number field
     email: '',
     linkedIn: '',
     industry: '',
@@ -41,6 +42,7 @@ export default function SignUpForm() {
         setState({ errors: null, message: 'Form submitted successfully!' });
         setFormData({
           fullName: '',
+          cellNumber: '',  // Reset cell number field
           email: '',
           linkedIn: '',
           industry: '',
@@ -75,6 +77,21 @@ export default function SignUpForm() {
             className="mt-1 block w-full p-3 border rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
             style={{ borderColor: '#546A7B', backgroundColor: '#F0F4F8', color: '#0D1F2D' }}
             placeholder="Enter your full name"
+          />
+        </div>
+
+        {/* Cell Number Field */}
+        <div className="form-control">
+          <label htmlFor="cellNumber" className="block text-sm font-medium" style={{ color: '#546A7B' }}>Cell Number</label>
+          <input
+            type="tel"
+            id="cellNumber"
+            name="cellNumber"
+            value={formData.cellNumber}
+            onChange={handleChange}
+            className="mt-1 block w-full p-3 border rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+            style={{ borderColor: '#546A7B', backgroundColor: '#F0F4F8', color: '#0D1F2D' }}
+            placeholder="Enter your cell number"
           />
         </div>
 

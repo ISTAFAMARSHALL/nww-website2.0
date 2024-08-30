@@ -27,7 +27,7 @@ export default function Header() {
     >
       <div className="mx-auto max-w-9xl px-8 sm:px-10">
         <div className="relative flex items-center justify-between h-14 rounded-2xl px-3">
-          <div style={{marginLeft:'-3.7%'}}className="flex rounded-xl items-center">
+          <div style={{marginLeft:'-3.65%'}}className="flex rounded-xl items-center">
             {/* <Logo /> */}
             <LogoCopy />
           </div>
@@ -68,7 +68,7 @@ export default function Header() {
               </li>
             </ul>
           </nav>
-          <ul style={{marginRight:'-3.7%'}} className="hidden md:flex items-center gap-3">
+          <ul style={{marginRight:'-3.65%'}} className="hidden md:flex items-center gap-3">
             <li>
               <Link href="/form" className="btn-sm text-lg rounded-xl bg-[#F4A690] text-[#F9F9F9] hover:text-[#0D1F2D] transition">
                 Request to Attend

@@ -69,11 +69,11 @@ export default function Modal({ isOpen, onClose, children }) {
       <div
         className="relative bg-white p-6 rounded-lg max-w-2xl w-full text-white"
         onClick={(e) => e.stopPropagation()}
-        style={{ backgroundColor: '#333' }} // Dark background for modal
+        style={{ backgroundColor: 'white' }} // Dark background for modal
       >
         <button
           onClick={onClose}
-          className="absolute top-3 right-3 text-white text-3xl"
+          className="absolute top-3 right-3 text-black text-3xl"
         >
           &times;
         </button>

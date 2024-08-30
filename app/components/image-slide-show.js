@@ -91,9 +91,9 @@ export default function ImageSlideShow() {
               style={{
                 fontSize: "1.5vw",
                 fill: "#F4A690",
-                fontWeight: "500",
+                fontWeight: "900",
                 textShadow:
-                  "2px 2px 4px rgba(0, 0, 0, 0.7), -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff", // white outline
+                  "4px 4px 2px rgba(0, 0, 0, 0.7), -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff", // white outline
                 padding: "20px",
               }}
             >
