@@ -45,12 +45,7 @@ export default function SignUpForm() {
           cellNumber: '',  // Reset cell number field
           email: '',
           linkedIn: '',
-          industry: '',
           goals: '',
-          benefitOthers: '',
-          topics: '',
-          referralSource: '',
-          dietaryRestrictions: '',
         });
       } else {
         setState({ errors: [result.message], message: null });

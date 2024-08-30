@@ -90,7 +90,7 @@ export default function ImageSlideShow() {
               textAnchor="middle"
               style={{
                 fontSize: "1.5vw",
-                fill: "#F4A690",
+                fill: "#F0896C",
                 fontWeight: "900",
                 textShadow:
                   "4px 4px 2px rgba(0, 0, 0, 0.7), -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff", // white outline
@@ -112,7 +112,7 @@ export default function ImageSlideShow() {
             zIndex: 2,
             textAlign: "center",
             fontSize: "3.5vw",
-            color: "#F4A690",
+            color: "#F0896C",
             fontWeight: "750",
             paddingBottom: "10px",
             width: "100%",
@@ -155,10 +155,10 @@ export default function ImageSlideShow() {
           >
             Learn More
           </a> */}
-            <Link href="#home-page-content" className="btn-sm text-lg bg-[#F4A690] text-[#F9F9F9] hover:text-[#0D1F2D] transition">
+            <Link href="#home-page-content" className="btn-sm text-lg bg-[#F0896C] text-[#F9F9F9] hover:text-[#0D1F2D] transition">
               Learn More
             </Link>
-            <Link href="/form" className="btn-sm text-lg bg-[#F4A690] text-[#F9F9F9] hover:text-[#0D1F2D] transition">
+            <Link href="/form" className="btn-sm text-lg bg-[#F0896C] text-[#F9F9F9] hover:text-[#0D1F2D] transition">
               Request to Attend
             </Link>
           {/* <a
