@@ -116,11 +116,11 @@ export default function TestimonialsCarousel() {
 
   return (
     <section id="testimonials" className="relative">
-      <div className="pt-12 md:pt-20">
+      <div style={{marginTop: '-100px'}} className="pt-12 md:pt-20">
         <div className="relative mx-auto flex max-w-[94rem] justify-center">
           <div className="group inline-flex w-full flex-nowrap py-12 md:py-20">
             <div
-              className={`flex ${isScrollingPaused ? '' : 'animate-[infinite-scroll_60s_linear_infinite]'} items-start justify-center group-hover:[animation-play-state:paused] md:justify-start [&>*]:mx-3`}
+              className={`flex ${isScrollingPaused ? '' : 'animate-[infinite-scroll_120s_linear_infinite]'} items-start justify-center group-hover:[animation-play-state:paused] md:justify-start [&>*]:mx-3`}
             >
               {TESTIMONIALCONTENT.map((testimonial, index) => (
                 <Testimonial
@@ -134,7 +134,7 @@ export default function TestimonialsCarousel() {
               ))}
             </div>
             <div
-              className={`flex ${isScrollingPaused ? '' : 'animate-[infinite-scroll_60s_linear_infinite]'} items-start justify-center group-hover:[animation-play-state:paused] md:justify-start [&>*]:mx-3`}
+              className={`flex ${isScrollingPaused ? '' : 'animate-[infinite-scroll_120s_linear_infinite]'} items-start justify-center group-hover:[animation-play-state:paused] md:justify-start [&>*]:mx-3`}
               aria-hidden="true"
             >
               {TESTIMONIALCONTENT.map((testimonial, index) => (
