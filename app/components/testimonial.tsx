@@ -249,8 +249,8 @@ export default function Testimonial({
           />
         )}
         <div>
-          <div className="font-bold text-[#0D1F2D]">{testimonial.name}</div>
-          <div className="text-sm font-medium italic text-[#546A7B]">
+          <div style={{textAlign: "center" }} className="font-bold text-[#0D1F2D]">{testimonial.name}</div>
+          <div style={{textAlign: "center" }}  className="text-sm font-sm italic text-[#546A7B]">
             {testimonial.title}
           </div>
           {testimonial.username && (
