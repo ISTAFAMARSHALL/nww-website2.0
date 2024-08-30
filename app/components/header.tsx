@@ -171,7 +171,7 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="relative flex items-center justify-between h-12 rounded-2xl px-3">
+        <div className="relative flex items-center justify-between h-9.5 rounded-2xl px-3">
           <div className="flex items-center">
             {/* <Logo /> */}
             <LogoCopy />
