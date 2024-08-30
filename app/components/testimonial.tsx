@@ -220,7 +220,7 @@ export default function Testimonial({
         return (
           <Link
             className="flex items-center justify-center transition hover:opacity-80"
-            href="https://www.linkedin.com/company/network-wise/"
+            href="https://www.linkedin.com/posts/greatpeopleknowgreatpeople_more-than-just-a-lunch-celebrates-1-year-activity-7123283175434260480-RqI6/?utm_source=share&utm_medium=member_desktop"
             aria-label="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"

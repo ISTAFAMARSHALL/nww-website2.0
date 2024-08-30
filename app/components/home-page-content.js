@@ -115,13 +115,7 @@ const contentData = [
     image: HomePageIMG3,
     header: 'What to Expect',
     headline: 'Prepare for an exclusive experience',
-    text: 'Led by the renowned Adam Connors, our event is an\
-    unparalleled opportunity to engage with individuals who are\
-    dedicated to pushing boundaries, achieving greatness, and\
-    helping others do the same. Limited to fewer than 8 carefully\
-    chosen attendees, offers a unique blend of stimulating\
-    discussions, industry insights, and unexpected moments of inspiration.\
-    Be part of this transformative experience and surround yourself with those who will challenge and inspire you to reach new heights.',
+    text: 'Join us for an exclusive event led by the renowned Adam Connors, featuring a carefully curated group of no more than 8  carefully chosen, high-caliber individuals. Dive into stimulating discussions and gain valuable insights in a transformative experience that will inspire and challenge you to reach new heights.',
   },
 ];
 
