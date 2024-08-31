@@ -479,7 +479,7 @@ export default function ImageSlideShow() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 768);
+      setIsSmallScreen(window.innerWidth <= 1200);
     };
 
     handleResize(); // Initial check
