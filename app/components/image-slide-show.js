@@ -128,7 +128,7 @@ export default function ImageSlideShow() {
                 padding: "20px",
               }}
             >
-              Not your ordinary people and not just a Meal. It's...
+              Not your ordinary people & not just a meal. It's...
             </textPath>
           </text>
         </svg>
@@ -153,7 +153,7 @@ export default function ImageSlideShow() {
             transition: "opacity .3s ease",
           }}
         >
-          Not your ordinary people and not just a Meal. It's...
+          Not your ordinary people & not just a meal. It's...
         </h2>
 
         {/* Main Title Text */}
