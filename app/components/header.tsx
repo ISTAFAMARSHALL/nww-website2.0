@@ -23,7 +23,7 @@ export default function Header() {
         top ? "bg-white" : "bg-[#F9F9F9] shadow-md"
       }`}
     >
-      <div className="flex justify-between items-center h-16">
+      <div className="flex justify-between items-center h-10">
         <div className="flex items-center">
           <LogoCopy />
         </div>
