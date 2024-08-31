@@ -561,6 +561,7 @@ export default function ImageSlideShow() {
             width: "100%",
             opacity: isSmallScreen ? 0 : 1,
             transition: "opacity .3s ease",
+            textShadow:"2px 2px 4px rgba(0, 0, 0, 0.7), -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff", // white outline
           }}
         >
           <path
@@ -577,7 +578,7 @@ export default function ImageSlideShow() {
                 fontSize: "clamp(1rem, 2vw, 2.5rem)", // Scales between 1rem and 2.5rem
                 fill: "#F0896C",
                 fontWeight: "900",
-                textShadow: `2px 2px 4px rgba(0, 0, 0, 0.7)`, // Regular shadow
+                textShadow:"2px 2px 4px rgba(0, 0, 0, 0.7), -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff", // white outline
                 padding: "20px",
               }}
             >
